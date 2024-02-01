@@ -147,9 +147,13 @@ console.log(newlanguages);
 
 let words = ['madrid', 'rome', 'milan', 'berlin'];
 
-let answer = words.filter(item => item.includes ('m'))
-
-console.log(answer);
+let answer = words.filter(function (item) {
+  if (item.includes ('m') || item.includes ('M')) {
+    return item;
+  }
+  return false;
+  })
+  console.log(answer);
 
 
 
