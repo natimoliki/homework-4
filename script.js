@@ -34,7 +34,18 @@ let resultsofstring = funct ('გამარჯობა')
 console.log(resultsofstring);
 
 
-// 4. ----
+// 4. 
+
+  let userAnswer = prompt ('საქართველოს დედაქალაქი');
+  let correctAnswer = 'tbilisi';
+
+  let lowAnswer = userAnswer.toLowerCase();
+
+  if (lowAnswer === correctAnswer) {
+    console.log('სწორია');
+  } else {
+    console.log('არასწორია');
+  }
 
 // 5. 
 let fruits = ['apple', 'mango', 'avocado','kiwi'] 
